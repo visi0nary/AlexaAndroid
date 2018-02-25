@@ -51,6 +51,7 @@ allprojects {
 ```java
 compile 'com.willblaschko.android.alexa:AlexaAndroid:2.4.2'
 ```
+* Make sure you have no other libraries like "login-with-amazon-sdk.jar" in your build.gradle to avoid "unable to merge dex"-errors.
 * Follow the process for creating a connected device detailed in the Amazon link at the top of the Readme.
 * Follow the instructions for adding your key and preparing the Login with Amazon activity from the ['Login with Amazon' Android Project guide](https://developer.amazon.com/public/apis/engage/login-with-amazon/docs/create_android_project.html)
 * Add your api_key.txt file (part of the Login with Amazon process detailed in the link above) to the app/src/main/assets folder.
